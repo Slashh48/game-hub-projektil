@@ -35,6 +35,7 @@ const PlatformIconList = ({ platforms }: Props) => {
       {/* {game.parent_platforms.map((platform) => (
     <Text>{platform.platform.name}</Text>
   ))}   Takozvana destructure */}
+
       {platforms.map((platform) => (
         <Icon as={iconMap[platform.slug]} color="gray.500" />
       ))}
