@@ -5,7 +5,7 @@ import { FetchResponse } from "../services/api-client";
 
 platforms;
 
-interface Platform {
+export interface Platform {
   id: number;
   name: string;
   slug: string;
