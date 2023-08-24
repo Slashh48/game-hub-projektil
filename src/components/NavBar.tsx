@@ -1,5 +1,5 @@
 import { HStack, Image } from "@chakra-ui/react";
-import logo from "../assets/logo.webp";
+import logo from "../assets/game-hub-projektil-logo.png";
 import ColorModeSwitch from "./ColorModeSwitch";
 import SearchBox from "./SearchBox";
 import { Link } from "react-router-dom";
